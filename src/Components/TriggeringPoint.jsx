@@ -1,9 +1,15 @@
 import React from "react";
 
-const TriggeringPoint = ({ currentTab, setCurrentTab }) => {
+const TriggeringPoint = ({ currentTab, setCurrentTab, type }) => {
   return (
     <div className="trigger-container" id="3">
-      Trigger
+      <div className="header">
+        <h1>Triggring Points</h1>
+        <p>Choose fields for which you want to trigger this playbook</p>
+      </div>
+      <div className="body">{type === "new" ? <div></div> : <div>
+        
+      </div>}</div>
       <div className="footer">
         <button
           onClick={() => {

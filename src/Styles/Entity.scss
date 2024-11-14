@@ -1,5 +1,5 @@
 .entity-container {
-  height: 500px;
+  height: calc(100vh - 140px);
   width: 100%;
   border: 2px solid #e7eaeb;
   margin-top: 100px;
@@ -12,6 +12,9 @@
   background: linear-gradient(135deg, #f3f4f6, #9ae2ca);
   padding: 10px;
   padding-bottom: 25px;
+  .heading {
+    margin-bottom: 10px;
+  }
   .body {
     display: flex;
     gap: 40px;

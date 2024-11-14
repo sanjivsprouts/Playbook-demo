@@ -1,5 +1,5 @@
 .sub-entity-container {
-  height: 260px;
+  height: 220px;
   width: 200px;
   background: linear-gradient(135deg, #f3f4f6, #8dc0aa);
   border-radius: 8px;
@@ -34,8 +34,9 @@
     justify-content: center;
     width: 100%;
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
     padding: 10px;
     color: #1c744e;
+    margin-bottom: 10px;
   }
 }

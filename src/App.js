@@ -11,7 +11,7 @@ function App() {
     const element = document.getElementById(currentTab);
     if (element) {
       const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - 100  ;
+      const offsetPosition = elementPosition + window.pageYOffset - 115;
       window.scrollTo({
         top: offsetPosition,
         behavior: "smooth",
